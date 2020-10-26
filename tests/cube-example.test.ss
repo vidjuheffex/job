@@ -9,5 +9,5 @@
 
 (test-begin "Testing cube function")
 (test-assert "returns a number" (number? (my-cube 2)))
-(test-eq "cube of 2 is 16" 8 (my-cube 2))
+(test-eq "cube of 2 is 8" 8 (my-cube 2))
 (test-end)
